@@ -1,0 +1,409 @@
+.navbar navbar-inverse navbar-fixed-top{
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+.navbar-nav{
+    padding-left: 350px;
+    padding-top: 7px;
+}
+.navbar-header{
+    padding-left: 300px;
+    padding-top: 7px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centered h1{
+    font-size: 90px;
+    color: white;
+    font-family: serif;
+    font-weight: bold;
+}
+.centered p{
+    font-size: 20px;
+    color: white;
+    font-family: monospace;
+    padding-left: 120px;
+/*    text-align: center;*/
+    
+}
+.centered button{
+   margin-left: 200px;
+}
+.background{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: auto;
+    height: 817px;;
+}
+.content{
+    background-color: white;
+    width: 614px;
+    min-height: 540px;
+    height: auto;
+    margin-top: 123px;
+    margin-left: 380px;
+    margin-right: 250px;
+}
+.content h1{
+    padding-top: 99px;
+/*    padding-left: 116px;*/
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Elephant;
+    text-align: center;
+}
+.content p{
+    padding-left: 75px;
+    padding-right: 75px;
+    font-size: 15px;
+/*    font-weight: bold;*/
+    font-family:calibri;
+}
+.community{
+    height: 250px;
+/*    background-color: yellow;*/
+}
+.community h1{
+    font-size: 46px;
+    font-family: playfair display, sans-serif, serif, Arial;
+    text-align: center;
+    padding-top: 60px;
+    color: black;
+}
+.community p{
+    text-align: center;
+    color: black;
+     font-size: 15px;
+font-family:calibri;
+}
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.spaces{
+    background-color: aquamarine;
+    height: 250px;
+}
+.spaces h1{
+    font-size: 46px;
+    font-family: playfair display, sans-serif, serif, Arial;
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+}
+.spaces p{
+    text-align: center;
+    color: white;
+     font-size: 15px;
+    font-family:calibri;
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: lightblue;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.membership{
+    height: 544px;
+/*    background-color: green;*/
+    padding-left: 150px;
+    padding-right: 100px;
+}
+.membership h1{
+    font-size: 46px;
+    font-family: Elephant;
+    text-align: center;
+    padding-top: 60px;
+    color: black;
+}
+.membership h6{
+    text-align: center;
+    color: black;
+     font-size: 15px;
+font-family:calibri;
+}
+.contact{
+    background-image: url(../images/photo-1519178903933-095e0a134199.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-y: auto;
+    width: 100%;
+    height: 500px;
+}
+.contact h1{
+      font-size: 56px;
+    font-family:Elephant;
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+}
+.contact p{
+    text-align: center;
+    color: white;
+     font-size: 15px;
+/*font-family:calibri;*/
+}
+span{
+      font-size: 19px;
+    padding-left: 500px;
+    padding-top: 60px;
+    color: white;
+}
+#form{
+    display: block;
+    margin: 0 auto;
+    margin-left: 460px;
+}
+input{
+    width: 45%;
+    margin-bottom: 10px;
+    background-color: lightgray;
+    padding-top: 7px;
+       padding-bottom: 7px;
+    color: white;
+}
+#submit{
+    background-color: aquamarine;
+    color: white;
+}
+.card img{
+    width: 600px;
+    height: 350px;
+}
+.container {
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 55%;
+  left: 25%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+font-family: Elephant;
+}
+footer{
+    height: 84px;
+    font-size: 10px;
+    font-family: Arial;
+   background-color: dimgray;
+    display: flex;
+    color: white;
+    padding-top: 40px;
+    padding-left: 600px;
+}
+.scoial-media i{
+    padding-left: 200px;
+}
+.login{
+    height:100px;
+/*    background-color: green;*/
+    padding-top: 80px;
+    padding-left: 1000px;
+}
+.login a{
+    color: black;
+}
+.heading h1{
+    text-align: center;
+    font-size: 46px;
+    font-family: serif;
+}
+.card-body{
+    float: right;
+}
+
+
+
+
